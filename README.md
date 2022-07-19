@@ -1,4 +1,4 @@
-# FAIMS3 Notebook: {{Template Name}}
+# FAIMS3 Notebook: FAIMS3 Beta Demo Notebook
 
 
 ## About this notebook:
@@ -6,13 +6,13 @@ This notebook was created for {{Customer names}} to {{task}}.
 
 
 ## Authorship:
-This notebook was co-developed by {{authors}}.
+This notebook was co-developed by Dr Penny Crook and Dr Brian Ballsun-Stanton.
 
 ## Funding:
-{{Funding detail}}
+The creation of this notebook by funded by the ARDC Platforms Project.
 
 ## Date of release:
-{{Date}}
+20 July 2022
   
 ## FAIMS3 version:
 FAIMS 3 (v0.5.667+, Android 11+) 
@@ -24,11 +24,16 @@ This notebook is licensed under an international [Creative Commons Attribution 4
 The notebook can be downloaded from this GitHub repository. 
 
 ## This notebook contains the following features:
-* {{feature list}}
-* {{feature list}}
+* text, numeral, selection and radio fields
+* related entities
+* linked identities
+* autoincremented identifiers
+* photo capture on device
+* GIS point collection
+* simple map drawing
  
 ## This notebook can be used with no or minor modification for:
-* {{task list}}
+* any workflow
  
 ## Contact info:
-For more details about the research contact {{customer contact}}. For details about the notebook contact Dr Penny Crook (info@faims.edu.au).
+For details about the notebook contact Dr Penny Crook (info@faims.edu.au).
