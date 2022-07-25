@@ -870,53 +870,836 @@
                         "optiontree":
                         [
                             {
-                                "name": "Level 1",
+                                "name": "Clay loam (CL)",
                                 "children":
                                 [
                                     {
-                                        "name": "Level 1.1",
+                                        "name": "Sapric clay loam (CL-A)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Fibric clay loam (CL-I)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Heavy clay loam (CL-heavy)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Light clay loam (CL-light)",
+                                        "children":
+                                        []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Clay loam, sandy (CLS)",
+                                "children":
+                                [
+                                    {
+                                        "name": "Clay loam, fine sandy (CLFS)",
                                         "children":
                                         [
                                             {
-                                                "name": "Level 1.1.1",
+                                                "name": "Sapric clay loam, fine sandy (CLFS-A)",
                                                 "children":
-                                                [
-                                                    {
-                                                        "name": "Level 1.1.1.1",
-                                                        "children":
-                                                        []
-                                                    }
-                                                ]
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric clay loam, fine sandy (CLFS-I)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Heavy clay loam, fine sandy (CLFS-heavy)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Light clay loam, fine sandy (CLFS-light)",
+                                                "children":
+                                                []
                                             }
                                         ]
                                     },
                                     {
-                                        "name": "Level 1.2",
+                                        "name": "Clay loam, coarse sandy (CLKS)",
                                         "children":
-                                        []
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Level 2",
-                                "children":
-                                [
+                                        [
+                                            {
+                                                "name": "Sapric clay loam, coarse sandy (CLKS-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric clay loam, coarse sandy (CLKS-I)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Heavy clay loam, coarse sandy (CLKS-heavy)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Light clay loam, coarse sandy (CLKS-light)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
                                     {
-                                        "name": "Level 2.1",
+                                        "name": "Sapric clay loam, sandy (CLS-A)",
                                         "children":
                                         []
                                     },
                                     {
-                                        "name": "Level 2.2",
+                                        "name": "Fibric clay loam, sandy (CLS-I)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Heavy clay loam, sandy (CLS-heavy)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Light clay loam, sandy (CLS-light)",
                                         "children":
                                         []
                                     }
                                 ]
                             },
                             {
-                                "name": "Level 3",
+                                "name": "Clayey sand (CS)",
                                 "children":
-                                []
+                                [
+                                    {
+                                        "name": "Clayey fine sand (CFS)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Heavy clayey fine sand (CFS-heavy)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Light clayey fine sand (CFS-light)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Clayey coarse sand (CKS)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Heavy clayey coarse sand (CKS-heavy)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Light clayey coarse sand (CKS-light)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Heavy clayey sand (CS-heavy)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Light clayey sand (CS-light)",
+                                        "children":
+                                        []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Heavy clay (HC)",
+                                "children":
+                                [
+                                    {
+                                        "name": "Fine sandy heavy clay (FSHC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric fine sandy heavy clay (FSHC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric fine sandy heavy clay (FSHC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Sapric heavy clay (HC-A)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Fibric heavy clay (HC-I)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Coarse sandy heavy clay (KSHC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric coarse sandy heavy clay (KSHC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric coarse sandy heavy clay (KSHC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Sandy heavy clay (SHC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric sandy heavy clay (SHC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric sandy heavy clay (SHC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Silty heavy clay (ZHC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric silty heavy clay (ZHC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric silty heavy clay (ZHC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Loam (L)",
+                                "children":
+                                [
+                                    {
+                                        "name": "Sapric loam (L-A)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Fibric loam (L-I)",
+                                        "children":
+                                        []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Light clay (LC)",
+                                "children":
+                                [
+                                    {
+                                        "name": "Fine sandy light clay (FSLC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric fine sandy light clay (FSLC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric fine sandy light clay (FSLC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Coarse sandy light clay (KSLC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric coarse sandy light clay (KSLC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric coarse sandy light clay (KSLC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Sapric light clay (LC-A)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Fibric light clay (LC-I)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Sandy light clay (SLC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric sandy light clay (SLC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric sandy light clay (SLC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Silty light clay (ZLC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric silty light clay (ZLC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric silty light clay (ZLC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Light medium clay (LMC)",
+                                "children":
+                                [
+                                    {
+                                        "name": "Fine sandy light medium clay (FSLMC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric fine sandy light medium clay (FSLMC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric fine sandy light medium clay (FSLMC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Coarse sandy light medium clay (KSLMC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric coarse sandy light medium clay (KSLMC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric coarse sandy light medium clay (KSLMC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Sapric light medium clay (LMC-A)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Fibric light medium clay (LMC-I)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Sandy light medium clay (SLMC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric sandy light medium clay (SLMC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric sandy light medium clay (SLMC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Silty light medium clay (ZLMC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric silty light medium clay (ZLMC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric silty light medium clay (ZLMC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Loamy sand (LS)",
+                                "children":
+                                [
+                                    {
+                                        "name": "Loamy fine sand (LFS)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric loamy fine sand (LFS-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric loamy fine sand (LFS-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Loamy coarse sand (LKS)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric loamy coarse sand (LKS-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric loamy coarse sand (LKS-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Sapric loamy sand (LS-A)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Fibric loamy sand (LS-I)",
+                                        "children":
+                                        []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Medium clay (MC)",
+                                "children":
+                                [
+                                    {
+                                        "name": "Fine sandy medium clay (FSMC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric fine sandy medium clay (FSMC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric fine sandy medium clay (FSMC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Coarse sandy medium clay (KSMC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric coarse sandy medium clay (KSMC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric coarse sandy medium clay (KSMC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Sapric medium clay (MC-A)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Fibric medium clay (MC-I)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Sandy medium clay (SMC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric sandy medium clay (SMC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric sandy medium clay (SMC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Silty medium clay (ZMC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric silty medium clay (ZMC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric silty medium clay (ZMC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Medium heavy clay (MHC)",
+                                "children":
+                                [
+                                    {
+                                        "name": "Fine sandy medium heavy clay (FSMHC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric fine sandy medium heavy clay (FSMHC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric fine sandy medium heavy clay (FSMHC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Coarse sandy medium heavy clay (KSMHC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric coarse sandy medium heavy clay (KSMHC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric coarse sandy medium heavy clay (KSMHC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Sapric medium heavy clay (MHC-A)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Fibric medium heavy clay (MHC-I)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Sandy medium heavy clay (SMHC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric sandy medium heavy clay (SMHC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric sandy medium heavy clay (SMHC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Silty medium heavy clay (ZMHC)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric silty medium heavy clay (ZMHC-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric silty medium heavy clay (ZMHC-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Sand (S)",
+                                "children":
+                                [
+                                    {
+                                        "name": "Fine sand (FS)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric fine sand (FS-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric fine sand (FS-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Coarse sand (KS)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric coarse sand (KS-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric coarse sand (KS-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Sapric sand (S-A)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Fibric sand (S-I)",
+                                        "children":
+                                        []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Sandy clay loam (SCL)",
+                                "children":
+                                [
+                                    {
+                                        "name": "Fine sandy clay loam (FSCL)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric fine sandy clay loam (FSCL-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric fine sandy clay loam (FSCL-I)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Heavy fine sandy clay loam (FSCL-heavy)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Light fine sandy clay loam (FSCL-light)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Coarse sandy clay loam (KSCL)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric coarse sandy clay loam (KSCL-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric coarse sandy clay loam (KSCL-I)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Heavy coarse sandy clay loam (KSCL-heavy)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Light coarse sandy clay loam (KSCL-light)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Sapric sandy clay loam (SCL-A)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Fibric sandy clay loam (SCL-I)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Heavy sandy clay loam (SCL-heavy)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Light sandy clay loam (SCL-light)",
+                                        "children":
+                                        []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Sandy loam (SL)",
+                                "children":
+                                [
+                                    {
+                                        "name": "Fine sandy loam (FSL)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric fine sandy loam (FSL-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric fine sandy loam (FSL-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Coarse sandy loam (KSL)",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Sapric coarse sandy loam (KSL-A)",
+                                                "children":
+                                                []
+                                            },
+                                            {
+                                                "name": "Fibric coarse sandy loam (KSL-I)",
+                                                "children":
+                                                []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Sapric sandy loam (SL-A)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Fibric sandy loam (SL-I)",
+                                        "children":
+                                        []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Silty clay loam (ZCL)",
+                                "children":
+                                [
+                                    {
+                                        "name": "Sapric silty clay loam (ZCL-A)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Fibric silty clay loam (ZCL-I)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Heavy silty clay loam (ZCL-heavy)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Light silty clay loam (ZCL-light)",
+                                        "children":
+                                        []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Silty loam (ZL)",
+                                "children":
+                                [
+                                    {
+                                        "name": "Sapric silty loam (ZL-A)",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Fibric silty loam (ZL-I)",
+                                        "children":
+                                        []
+                                    }
+                                ]
                             }
                         ]
                     },
