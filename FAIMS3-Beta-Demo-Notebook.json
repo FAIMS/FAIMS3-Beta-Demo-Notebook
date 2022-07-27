@@ -947,6 +947,104 @@
                     }
                 }
             },
+            "newfield43c567d1-only":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "AdvancedSelect",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "You can organise your selections into groups with a Hierarchical picklist. ",
+                    "variant": "outlined",
+                    "required": false,
+                    "select": true,
+                    "InputProps":
+                    {},
+                    "SelectProps":
+                    {},
+                    "ElementProps":
+                    {
+                        "optiontree":
+                        [
+                            {
+                                "name": "Level 1",
+                                "children":
+                                [
+                                    {
+                                        "name": "Level 1.1",
+                                        "children":
+                                        [
+                                            {
+                                                "name": "Level 1.1.1",
+                                                "children":
+                                                [
+                                                    {
+                                                        "name": "Level 1.1.1.1",
+                                                        "children":
+                                                        []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Level 1.2",
+                                        "children":
+                                        []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Level 2",
+                                "children":
+                                [
+                                    {
+                                        "name": "Level 2.1",
+                                        "children":
+                                        []
+                                    },
+                                    {
+                                        "name": "Level 2.2",
+                                        "children":
+                                        []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Level 3",
+                                "children":
+                                []
+                            }
+                        ]
+                    },
+                    "label": "Hierarchical Picker (only child)",
+                    "valuetype": "child",
+                    "id": "newfield43c567d1-only",
+                    "name": "newfield43c567d1-only"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": false,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
             "newfield7c35e08e":
             {
                 "component-namespace": "faims-custom",
@@ -1832,6 +1930,7 @@
                     "newfield349b217c",
                     "newfield331e4e64",
                     "newfield43c567d1",
+                    "newfield43c567d1-only",
                     "newfield1bca4ef4",
                     "newfieldc8b63f36"
                 ],
