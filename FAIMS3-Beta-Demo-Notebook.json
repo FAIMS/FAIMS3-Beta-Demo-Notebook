@@ -2133,15 +2133,15 @@
                     ],
                     [
                         "yup.required",
-                        "I do not want to eat these green eggs and ham -- I want a string instead!"
+                        "I do not want to eat these green eggs and ham -- I want a longer string instead!"
                     ],
                     [
                         "yup.min",
                         "5",
-                        "At least 5 characters, please."
+                        "At least 5 characters, please. Not just ham.."
                     ]
                 ],
-                "initialValue": "",
+                "initialValue": "ham",
                 "access":
                 [
                     "admin"
