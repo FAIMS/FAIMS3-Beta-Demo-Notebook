@@ -14,7 +14,7 @@
             }
         ],
         "_id": "local-autoincrementers",
-        "_rev": "5-edc2a375e1fe0596bf7326a5df9f5127"
+        "_rev": "19-5d87fa34027ec0684145a204df493bb9"
     },
     {
         "is_attachment": false,
@@ -30,7 +30,7 @@
             ]
         },
         "_id": "project-metadata-access",
-        "_rev": "5-52a049c3ac7d5f197460bc127ade7915"
+        "_rev": "19-d94dc80c0e83930a964d25d6f1ffa95e"
     },
     {
         "is_attachment": false,
@@ -41,21 +41,21 @@
             "team"
         ],
         "_id": "project-metadata-accesses",
-        "_rev": "5-1bf27cb0c293a21bf936872118fd5cdc"
+        "_rev": "19-56b5237d38a597e17741141ed53ca9cc"
     },
     {
         "is_attachment": false,
         "metadata":
         {},
         "_id": "project-metadata-behavious",
-        "_rev": "5-50e7228a82caa696ab6b9832f168c7e7"
+        "_rev": "19-d771f75532b327a21981a30b5c0cfbc0"
     },
     {
         "is_attachment": false,
         "metadata":
         [],
         "_id": "project-metadata-filenames",
-        "_rev": "5-6b51778e640d6b7097497ac0e244b9ca"
+        "_rev": "19-bcabcdf325a5384507a650b86a0db5c5"
     },
     {
         "is_attachment": false,
@@ -79,25 +79,25 @@
             }
         },
         "_id": "project-metadata-forms",
-        "_rev": "5-95f63a3d47bc67d72b98836d561d6448"
+        "_rev": "19-0db7338685baf1c13119578487a60069"
     },
     {
         "is_attachment": false,
         "metadata": false,
         "_id": "project-metadata-ispublic",
-        "_rev": "5-26c366e92c03142bfe140944d1d296b6"
+        "_rev": "19-8268ef4551c31fb13336319313190b87"
     },
     {
         "is_attachment": false,
         "metadata": false,
         "_id": "project-metadata-isrequest",
-        "_rev": "5-a7c5e31914eccfa348117ff8bf1a179c"
+        "_rev": "19-ba24af6e5336d64e9a8490a665748ec5"
     },
     {
         "is_attachment": false,
         "metadata": "Macquarie University",
         "_id": "project-metadata-lead_institution",
-        "_rev": "5-d32c005f6dfb940d83b7dbd92ee33414"
+        "_rev": "19-7a94de3fe89eab450012502ce3b87627"
     },
     {
         "is_attachment": false,
@@ -106,25 +106,25 @@
             "Thing2Label": "Demonstration project metadata"
         },
         "_id": "project-metadata-meta",
-        "_rev": "5-2c40f0cc9911981252704a456bcb0fba"
+        "_rev": "19-754bfa2935d2a3ada6f03c560612b26c"
     },
     {
         "is_attachment": false,
         "metadata": "This is a demonstration notebook walking through the key features of FAIMS3 Beta.",
         "_id": "project-metadata-pre_description",
-        "_rev": "5-6db7f43f54c8b53244a5d53ce564ae7c"
+        "_rev": "19-86c285634c140e1b3c357f6336e3547e"
     },
     {
         "is_attachment": false,
         "metadata": "Penny Crook",
         "_id": "project-metadata-project_lead",
-        "_rev": "5-614b442ef9e1a5e7760d035873cdb2df"
+        "_rev": "19-1657d61c1f58a6994acc96c625e363a3"
     },
     {
         "is_attachment": false,
         "metadata": "New",
         "_id": "project-metadata-project_status",
-        "_rev": "5-c1de8d5170d9c13cb44ae8d913b30b17"
+        "_rev": "19-c6ceba2364b9a6a77f199336071ef4bd"
     },
     {
         "is_attachment": false,
@@ -201,7 +201,7 @@
             []
         },
         "_id": "project-metadata-projectvalue",
-        "_rev": "5-31ee3666c0a343f25d9fb802ef76d959"
+        "_rev": "19-2ba8f835f4a28ba2ac553dfdbec2213c"
     },
     {
         "is_attachment": false,
@@ -225,7 +225,7 @@
             }
         },
         "_id": "project-metadata-sections",
-        "_rev": "5-d161945805e4c4c69cadb59e5947864e"
+        "_rev": "19-b16ec622da4d2cfb401cce96abed65a1"
     },
     {
         "fields":
@@ -862,7 +862,7 @@
                 "component-parameters":
                 {
                     "fullWidth": true,
-                    "helperText": "You can organise your selections into groups with a Hierarchical picklist. ",
+                    "helperText": "You can organise your selections into groups with a Hierarchical picklist. You can choose to store the full path, where that's useful. ",
                     "variant": "outlined",
                     "required": false,
                     "select": true,
@@ -925,7 +925,7 @@
                             }
                         ]
                     },
-                    "label": "Hierarchical Picker",
+                    "label": "Hierarchical Picker (full path)",
                     "valuetype": "full",
                     "id": "newfield43c567d1",
                     "name": "newfield43c567d1"
@@ -960,7 +960,7 @@
                 "component-parameters":
                 {
                     "fullWidth": true,
-                    "helperText": "You can organise your selections into groups with a Hierarchical picklist. ",
+                    "helperText": "Or just the end value if that is all you need.",
                     "variant": "outlined",
                     "required": false,
                     "select": true,
@@ -1409,9 +1409,9 @@
                 "component-parameters":
                 {
                     "fullWidth": true,
-                    "helperText": "By default sync is always on",
+                    "helperText": "",
                     "variant": "outlined",
-                    "label": "Synchronisation",
+                    "label": "html",
                     "variant_style": "h3",
                     "html_tag": "<ul><li>This is an example of included HTML</li><li>This can also include images</li></ul><img src=\"https://placekitten.com/300/300\"><p>Here have example kittens from placekitten.com</p>",
                     "id": "newfieldb3d7f302",
@@ -1484,7 +1484,7 @@
                 "component-parameters":
                 {
                     "fullWidth": true,
-                    "helperText": "Colour picker",
+                    "helperText": "Tap the colour picker to select an RGB value from the array.",
                     "variant": "outlined",
                     "required": false,
                     "InputProps":
@@ -1909,6 +1909,429 @@
                         "label": "uncertainty"
                     }
                 }
+            },
+            "newfield458e4de6":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "RandomStyle",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "",
+                    "variant": "outlined",
+                    "label": "Synchronisation",
+                    "variant_style": "h4",
+                    "html_tag": "",
+                    "id": "newfield458e4de6",
+                    "name": "newfield458e4de6"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfieldb4920b84":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "RandomStyle",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "",
+                    "variant": "outlined",
+                    "label": "",
+                    "variant_style": "subtitle1",
+                    "html_tag": "By default synchronisation is <b>always on</b>. It can toggled on or off on the home page.",
+                    "id": "newfieldb4920b84",
+                    "name": "newfieldb4920b84"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield20dd05c5":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "RandomStyle",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "To break up a view, or guide the user",
+                    "variant": "outlined",
+                    "label": "Custom headers and text ",
+                    "variant_style": "h3",
+                    "html_tag": "",
+                    "id": "newfield20dd05c5",
+                    "name": "newfield20dd05c5"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield7d884f8a":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "RandomStyle",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "and can be placed anywhere on the page",
+                    "variant": "outlined",
+                    "label": "Come in different sizes",
+                    "variant_style": "h1",
+                    "html_tag": "",
+                    "id": "newfield7d884f8a",
+                    "name": "newfield7d884f8a"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield80c95dfb":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "RandomStyle",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "",
+                    "variant": "outlined",
+                    "label": "Validation",
+                    "variant_style": "h4",
+                    "html_tag": "",
+                    "id": "newfield80c95dfb",
+                    "name": "newfield80c95dfb"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield3bc6953e":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "If no value is entered, you can't save and sync the record. This must be at least 5 characters long!",
+                    "variant": "outlined",
+                    "required": true,
+                    "InputProps":
+                    {
+                        "type": "string"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "Required Text Field"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfield3bc6953e",
+                    "name": "newfield3bc6953e"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ],
+                    [
+                        "yup.required",
+                        "I do not want to eat these green eggs and ham -- I want a string instead!"
+                    ],
+                    [
+                        "yup.min",
+                        "5",
+                        "At least 5 characters, please."
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": false,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield30935e41":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "If the number does not meet the validation rule min 10 and max 20, you cannot save and sync the record.. and we have custom validation messages if you edit the json",
+                    "variant": "outlined",
+                    "required": true,
+                    "InputProps":
+                    {
+                        "type": "number"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "Required Controlled Number"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfield30935e41",
+                    "name": "newfield30935e41"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.number"
+                    ],
+                    [
+                        "yup.min",
+                        10,
+                        "Must be 10 or more"
+                    ],
+                    [
+                        "yup.max",
+                        20,
+                        "Must be 20 or less"
+                    ],
+                    [
+                        "yup.required",
+                        "You must fill this in!"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "",
+                    "annotation": false,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfieldec4d0707":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "RandomStyle",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "",
+                    "variant": "outlined",
+                    "label": "Saving Records",
+                    "variant_style": "h4",
+                    "html_tag": "",
+                    "id": "newfieldec4d0707",
+                    "name": "newfieldec4d0707"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfielddf61a75a":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "RandomStyle",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "",
+                    "variant": "outlined",
+                    "label": "",
+                    "variant_style": "subtitle1",
+                    "html_tag": "By default records are saved as a <b>Draft</b> on your local device. They can only be synchronised once you have selected <b>Save</b>.",
+                    "id": "newfielddf61a75a",
+                    "name": "newfielddf61a75a"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield3562a076":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "RandomStyle",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "",
+                    "variant": "outlined",
+                    "label": "",
+                    "variant_style": "h5",
+                    "html_tag": "You can't synchronise invalid data. FAIMS3 has two main types of <b>validation</b>: required fields and field-level controls.",
+                    "id": "newfield3562a076",
+                    "name": "newfield3562a076"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
             }
         },
         "fviews":
@@ -1957,8 +2380,8 @@
                 "fields":
                 [
                     "newfielddaa9b2f4",
-                    "newfield7c35e08e",
                     "newfield39eaf1f5",
+                    "newfield7c35e08e",
                     "newfield58537432",
                     "newfield8991f805",
                     "newfield5b08f563",
@@ -1984,7 +2407,25 @@
             {
                 "fields":
                 [
+                    "newfield20dd05c5",
+                    "newfield7d884f8a",
                     "newfieldb3d7f302"
+                ],
+                "uidesign": "form",
+                "label": "Views"
+            },
+            "FORM1SECTION8":
+            {
+                "fields":
+                [
+                    "newfieldec4d0707",
+                    "newfielddf61a75a",
+                    "newfield458e4de6",
+                    "newfieldb4920b84",
+                    "newfield80c95dfb",
+                    "newfield3562a076",
+                    "newfield3bc6953e",
+                    "newfield30935e41"
                 ],
                 "uidesign": "form",
                 "label": "Sync"
@@ -2000,7 +2441,8 @@
                     "FORM1SECTION2",
                     "FORM1SECTION3",
                     "FORM1SECTION5",
-                    "FORM1SECTION7"
+                    "FORM1SECTION7",
+                    "FORM1SECTION8"
                 ],
                 "label": "Thing 1",
                 "submit_label": "Save and New"
@@ -2020,6 +2462,6 @@
             "FORM2"
         ],
         "_id": "ui-specification",
-        "_rev": "5-904412097ab45a4f2ac26af2ead328e3"
+        "_rev": "19-5b9cb4724230bf5a39d1315b7a72a400"
     }
 ]
