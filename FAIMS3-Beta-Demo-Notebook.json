@@ -3,13 +3,18 @@
         "references":
         [
             {
+                "form_id": "FORM1SECTION6",
+                "field_id": "newfield5d343717",
+                "label": "Auto Increase Range"
+            },
+            {
                 "form_id": "FORM2SECTION1",
                 "field_id": "newfield63edb585",
                 "label": "Thing 2 incrementer"
             }
         ],
         "_id": "local-autoincrementers",
-        "_rev": "3-f34ebb8b8c36331a28a00c981eaa54df"
+        "_rev": "5-edc2a375e1fe0596bf7326a5df9f5127"
     },
     {
         "is_attachment": false,
@@ -25,7 +30,7 @@
             ]
         },
         "_id": "project-metadata-access",
-        "_rev": "3-8c799405e0e73c5ecc3da5902d835288"
+        "_rev": "5-52a049c3ac7d5f197460bc127ade7915"
     },
     {
         "is_attachment": false,
@@ -36,21 +41,21 @@
             "team"
         ],
         "_id": "project-metadata-accesses",
-        "_rev": "3-300f24ddf1332f2dc0f6f4f60ba9ac44"
+        "_rev": "5-1bf27cb0c293a21bf936872118fd5cdc"
     },
     {
         "is_attachment": false,
         "metadata":
         {},
         "_id": "project-metadata-behavious",
-        "_rev": "3-4f06ff30ad227926278be362b9a903ba"
+        "_rev": "5-50e7228a82caa696ab6b9832f168c7e7"
     },
     {
         "is_attachment": false,
         "metadata":
         [],
         "_id": "project-metadata-filenames",
-        "_rev": "3-32ea7864fd8f057c860fcd5144be9142"
+        "_rev": "5-6b51778e640d6b7097497ac0e244b9ca"
     },
     {
         "is_attachment": false,
@@ -74,25 +79,25 @@
             }
         },
         "_id": "project-metadata-forms",
-        "_rev": "3-96d3cacfeee40dc17ba0f7c84da13769"
+        "_rev": "5-95f63a3d47bc67d72b98836d561d6448"
     },
     {
         "is_attachment": false,
         "metadata": false,
         "_id": "project-metadata-ispublic",
-        "_rev": "3-e2f66d3a2b85b71d432488adad341ba1"
+        "_rev": "5-26c366e92c03142bfe140944d1d296b6"
     },
     {
         "is_attachment": false,
         "metadata": false,
         "_id": "project-metadata-isrequest",
-        "_rev": "3-46694deec9bc4fbb15577808eee1ae20"
+        "_rev": "5-a7c5e31914eccfa348117ff8bf1a179c"
     },
     {
         "is_attachment": false,
         "metadata": "Macquarie University",
         "_id": "project-metadata-lead_institution",
-        "_rev": "3-97fe147a8e264d8d9c892e792ad66ee3"
+        "_rev": "5-d32c005f6dfb940d83b7dbd92ee33414"
     },
     {
         "is_attachment": false,
@@ -101,25 +106,25 @@
             "Thing2Label": "Demonstration project metadata"
         },
         "_id": "project-metadata-meta",
-        "_rev": "3-14212ebf8166740569935db388d8e0b8"
+        "_rev": "5-2c40f0cc9911981252704a456bcb0fba"
     },
     {
         "is_attachment": false,
         "metadata": "This is a demonstration notebook walking through the key features of FAIMS3 Beta.",
         "_id": "project-metadata-pre_description",
-        "_rev": "3-b838131ac63ee44b0249d250a7f6cf87"
+        "_rev": "5-6db7f43f54c8b53244a5d53ce564ae7c"
     },
     {
         "is_attachment": false,
         "metadata": "Penny Crook",
         "_id": "project-metadata-project_lead",
-        "_rev": "3-f67000a49b758f264f2c36a950c369ee"
+        "_rev": "5-614b442ef9e1a5e7760d035873cdb2df"
     },
     {
         "is_attachment": false,
         "metadata": "New",
         "_id": "project-metadata-project_status",
-        "_rev": "3-02ccde79fc0c20bceb72b9e6b8bfdac3"
+        "_rev": "5-c1de8d5170d9c13cb44ae8d913b30b17"
     },
     {
         "is_attachment": false,
@@ -196,7 +201,7 @@
             []
         },
         "_id": "project-metadata-projectvalue",
-        "_rev": "3-28f45f19da936ad9ba46a02c8d0a8ab7"
+        "_rev": "5-31ee3666c0a343f25d9fb802ef76d959"
     },
     {
         "is_attachment": false,
@@ -220,7 +225,7 @@
             }
         },
         "_id": "project-metadata-sections",
-        "_rev": "3-10f7ea7bed42f50b4e6a03318d8dc765"
+        "_rev": "5-d161945805e4c4c69cadb59e5947864e"
     },
     {
         "fields":
@@ -1527,7 +1532,7 @@
                 "component-parameters":
                 {
                     "fullWidth": true,
-                    "helperText": "Date picker",
+                    "helperText": "We have a date picker with a calendar prompt.",
                     "variant": "outlined",
                     "required": false,
                     "InputProps":
@@ -1559,10 +1564,10 @@
                 "meta":
                 {
                     "annotation_label": "annotation",
-                    "annotation": true,
+                    "annotation": false,
                     "uncertainty":
                     {
-                        "include": true,
+                        "include": false,
                         "label": "uncertainty"
                     }
                 }
@@ -1575,7 +1580,7 @@
                 "component-parameters":
                 {
                     "fullWidth": true,
-                    "helperText": "Datetime-local picker",
+                    "helperText": "And a calendar prompt with a timestamp.",
                     "variant": "outlined",
                     "required": false,
                     "InputProps":
@@ -1586,7 +1591,7 @@
                     {},
                     "InputLabelProps":
                     {
-                        "label": "Datetime-local picker"
+                        "label": "Date and Time picker"
                     },
                     "FormHelperTextProps":
                     {},
@@ -1607,10 +1612,10 @@
                 "meta":
                 {
                     "annotation_label": "annotation",
-                    "annotation": true,
+                    "annotation": false,
                     "uncertainty":
                     {
-                        "include": true,
+                        "include": false,
                         "label": "uncertainty"
                     }
                 }
@@ -1623,7 +1628,7 @@
                 "component-parameters":
                 {
                     "fullWidth": true,
-                    "helperText": "Month picker",
+                    "helperText": "And one to select just the month if that is all you need.",
                     "variant": "outlined",
                     "required": false,
                     "InputProps":
@@ -1655,10 +1660,10 @@
                 "meta":
                 {
                     "annotation_label": "annotation",
-                    "annotation": true,
+                    "annotation": false,
                     "uncertainty":
                     {
-                        "include": true,
+                        "include": false,
                         "label": "uncertainty"
                     }
                 }
@@ -1815,7 +1820,7 @@
                     "helperText": "Demo from project metadata + local count",
                     "variant": "outlined",
                     "required": true,
-                    "template": "Cat in the {{newfield4840ba8b}} #{{newfield63edb585}}",
+                    "template": "{{newfield63edb585}}-Demonstration project metadata",
                     "InputProps":
                     {
                         "type": "text",
@@ -2015,6 +2020,6 @@
             "FORM2"
         ],
         "_id": "ui-specification",
-        "_rev": "3-d736a7a7ef2531b4b89255a70de433c4"
+        "_rev": "5-904412097ab45a4f2ac26af2ead328e3"
     }
 ]
