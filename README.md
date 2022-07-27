@@ -2,8 +2,7 @@
 
 
 ## About this notebook:
-This notebook was created for {{Customer names}} to {{task}}. 
-
+This notebook was created to showcase the FAIMS3 feature set. 
 
 ## Authorship:
 This notebook was co-developed by Dr Penny Crook and Dr Brian Ballsun-Stanton.
