@@ -14,7 +14,7 @@
             }
         ],
         "_id": "local-autoincrementers",
-        "_rev": "19-5d87fa34027ec0684145a204df493bb9"
+        "_rev": "16-67caa107275dd01ea484945dc62fac89"
     },
     {
         "is_attachment": false,
@@ -30,7 +30,7 @@
             ]
         },
         "_id": "project-metadata-access",
-        "_rev": "19-d94dc80c0e83930a964d25d6f1ffa95e"
+        "_rev": "16-b48af76c41babd1a21e91ee4b63658d5"
     },
     {
         "is_attachment": false,
@@ -41,21 +41,21 @@
             "team"
         ],
         "_id": "project-metadata-accesses",
-        "_rev": "19-56b5237d38a597e17741141ed53ca9cc"
+        "_rev": "16-22c66fdcd35f0957ddd71180715146b6"
     },
     {
         "is_attachment": false,
         "metadata":
         {},
         "_id": "project-metadata-behavious",
-        "_rev": "19-d771f75532b327a21981a30b5c0cfbc0"
+        "_rev": "16-85e34a85dcf3d0b3290c32a27fe3dec1"
     },
     {
         "is_attachment": false,
         "metadata":
         [],
         "_id": "project-metadata-filenames",
-        "_rev": "19-bcabcdf325a5384507a650b86a0db5c5"
+        "_rev": "16-aeab8624b5d9ececd52236043d78c373"
     },
     {
         "is_attachment": false,
@@ -79,25 +79,25 @@
             }
         },
         "_id": "project-metadata-forms",
-        "_rev": "19-0db7338685baf1c13119578487a60069"
+        "_rev": "16-e0eba0fdb87a59129c243c42f05deaac"
     },
     {
         "is_attachment": false,
         "metadata": false,
         "_id": "project-metadata-ispublic",
-        "_rev": "19-8268ef4551c31fb13336319313190b87"
+        "_rev": "16-d23ddbd273789d7566ece475fc16e6d6"
     },
     {
         "is_attachment": false,
         "metadata": false,
         "_id": "project-metadata-isrequest",
-        "_rev": "19-ba24af6e5336d64e9a8490a665748ec5"
+        "_rev": "16-73abaa166d3428c91f7cea024a3bc3c7"
     },
     {
         "is_attachment": false,
         "metadata": "Macquarie University",
         "_id": "project-metadata-lead_institution",
-        "_rev": "19-7a94de3fe89eab450012502ce3b87627"
+        "_rev": "16-cd9ee9a64d71163ab3b91ebc990efa47"
     },
     {
         "is_attachment": false,
@@ -106,25 +106,25 @@
             "Thing2Label": "Demonstration project metadata"
         },
         "_id": "project-metadata-meta",
-        "_rev": "19-754bfa2935d2a3ada6f03c560612b26c"
+        "_rev": "16-6e0498b900e5a22f24440bdb1ea8e071"
     },
     {
         "is_attachment": false,
         "metadata": "This is a demonstration notebook walking through the key features of FAIMS3 Beta.",
         "_id": "project-metadata-pre_description",
-        "_rev": "19-86c285634c140e1b3c357f6336e3547e"
+        "_rev": "16-e5e9bf7badbe52f9a365a709e555ddc8"
     },
     {
         "is_attachment": false,
         "metadata": "Penny Crook",
         "_id": "project-metadata-project_lead",
-        "_rev": "19-1657d61c1f58a6994acc96c625e363a3"
+        "_rev": "16-2333ad83a6fe1accb6fcba6341a8af3e"
     },
     {
         "is_attachment": false,
         "metadata": "New",
         "_id": "project-metadata-project_status",
-        "_rev": "19-c6ceba2364b9a6a77f199336071ef4bd"
+        "_rev": "16-3699a877a5020f6f8e1f84902b266d4b"
     },
     {
         "is_attachment": false,
@@ -201,7 +201,7 @@
             []
         },
         "_id": "project-metadata-projectvalue",
-        "_rev": "19-2ba8f835f4a28ba2ac553dfdbec2213c"
+        "_rev": "16-a8c265d3b7d212347b8179745599d1c2"
     },
     {
         "is_attachment": false,
@@ -225,7 +225,7 @@
             }
         },
         "_id": "project-metadata-sections",
-        "_rev": "19-b16ec622da4d2cfb401cce96abed65a1"
+        "_rev": "16-9941462228a5672bacc58b7c0fc81419"
     },
     {
         "fields":
@@ -263,6 +263,54 @@
                     ]
                 ],
                 "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": false,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfieldd9bd10b3-prepop":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "This field's default is 'Default'",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "string"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "Prepopulated Field"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfieldd9bd10b3-prepop",
+                    "name": "newfieldd9bd10b3-prepop"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "Default",
                 "access":
                 [
                     "admin"
@@ -1413,7 +1461,7 @@
                     "variant": "outlined",
                     "label": "html",
                     "variant_style": "h3",
-                    "html_tag": "<ul><li>This is an example of included HTML</li><li>This can also include images</li></ul><img src=\"https://placekitten.com/300/300\"><p>Here have example kittens from placekitten.com</p>",
+                    "html_tag": "<ul><li>This is an example of included HTML with <i>custom</i> <b>formatting</b></li><li>This can also include images</li></ul><img src=\"https://placekitten.com/300/300\"><p>Here have example kittens from placekitten.com</p>",
                     "id": "newfieldb3d7f302",
                     "name": "newfieldb3d7f302"
                 },
@@ -2108,9 +2156,9 @@
                 "component-parameters":
                 {
                     "fullWidth": true,
-                    "helperText": "If no value is entered, you can't save and sync the record. This must be at least 5 characters long!",
+                    "helperText": "If the text does not meet the validation rule you cannot save and sync. This one must be at least 5 characters long.",
                     "variant": "outlined",
-                    "required": true,
+                    "required": false,
                     "InputProps":
                     {
                         "type": "string"
@@ -2119,7 +2167,7 @@
                     {},
                     "InputLabelProps":
                     {
-                        "label": "Required Text Field"
+                        "label": "Controlled Text Field"
                     },
                     "FormHelperTextProps":
                     {},
@@ -2138,10 +2186,10 @@
                     [
                         "yup.min",
                         "5",
-                        "At least 5 characters, please. Not just ham.."
+                        "At least 5 characters, please. Not just ham..."
                     ]
                 ],
-                "initialValue": "ham",
+                "initialValue": "",
                 "access":
                 [
                     "admin"
@@ -2165,18 +2213,16 @@
                 "component-parameters":
                 {
                     "fullWidth": true,
-                    "helperText": "If the number does not meet the validation rule min 10 and max 20, you cannot save and sync the record.. and we have custom validation messages if you edit the json",
+                    "helperText": "This number must be at least 10 and not more than 20. ",
                     "variant": "outlined",
-                    "required": true,
+                    "required": false,
                     "InputProps":
-                    {
-                        "type": "number"
-                    },
+                    {},
                     "SelectProps":
                     {},
                     "InputLabelProps":
                     {
-                        "label": "Required Controlled Number"
+                        "label": "Controlled Number"
                     },
                     "FormHelperTextProps":
                     {},
@@ -2332,6 +2378,129 @@
                         "label": "uncertainty"
                     }
                 }
+            },
+            "newfieldead157fe":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "RandomStyle",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "",
+                    "variant": "outlined",
+                    "label": "",
+                    "html_tag": "<b>Custom validation messages</b> can be used to guide the user.",
+                    "id": "newfieldead157fe",
+                    "name": "newfieldead157fe"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfieldd9977492":
+            {
+                "component-namespace": "faims-custom",
+                "component-name": "RandomStyle",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "",
+                    "variant": "outlined",
+                    "label": "",
+                    "variant_style": "h5",
+                    "html_tag": "<b>Field-specific validation</b> can be customised in the notebook's json file.",
+                    "id": "newfieldd9977492",
+                    "name": "newfieldd9977492"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": true,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
+            },
+            "newfield42c697df":
+            {
+                "component-namespace": "formik-material-ui",
+                "component-name": "TextField",
+                "type-returned": "faims-core::String",
+                "component-parameters":
+                {
+                    "fullWidth": true,
+                    "helperText": "If no value is entered, you can't save and sync the record. ",
+                    "variant": "outlined",
+                    "required": false,
+                    "InputProps":
+                    {
+                        "type": "text"
+                    },
+                    "SelectProps":
+                    {},
+                    "InputLabelProps":
+                    {
+                        "label": "Required Text Field"
+                    },
+                    "FormHelperTextProps":
+                    {},
+                    "id": "newfield42c697df",
+                    "name": "newfield42c697df"
+                },
+                "validationSchema":
+                [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access":
+                [
+                    "admin"
+                ],
+                "meta":
+                {
+                    "annotation_label": "annotation",
+                    "annotation": false,
+                    "uncertainty":
+                    {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
             }
         },
         "fviews":
@@ -2346,7 +2515,8 @@
                     "newfield89e38d1e",
                     "date-picker",
                     "datetime-local-picker",
-                    "month-picker"
+                    "month-picker",
+                    "newfieldd9bd10b3-prepop"
                 ],
                 "uidesign": "form",
                 "label": "Input Fields"
@@ -2385,7 +2555,7 @@
                     "newfield58537432",
                     "newfield8991f805",
                     "newfield5b08f563",
-                    "colour-picker"                    
+                    "colour-picker"
                 ],
                 "uidesign": "form",
                 "label": "Special Fields"
@@ -2423,7 +2593,10 @@
                     "newfieldb4920b84",
                     "newfield80c95dfb",
                     "newfield3562a076",
+                    "newfield42c697df",
+                    "newfieldd9977492",
                     "newfield3bc6953e",
+                    "newfieldead157fe",
                     "newfield30935e41"
                 ],
                 "uidesign": "form",
@@ -2461,6 +2634,6 @@
             "FORM2"
         ],
         "_id": "ui-specification",
-        "_rev": "19-5b9cb4724230bf5a39d1315b7a72a400"
+        "_rev": "16-b728f24261a1a63f262b9542cee17deb"
     }
 ]
