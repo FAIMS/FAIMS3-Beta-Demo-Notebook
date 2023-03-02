@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-export SERVER_FULLNAME="${1:-dev.db.faims.edu.au}" # dev, alpha, testing, selenium
+export SERVER_FULLNAME="${1:-demo.db.faims.edu.au}" # dev, alpha, testing, selenium
 # export SPID="${2:-$SERVER_FULLNAME}"
 # cp 20220110-model1.json faims3-temp-notebook-migrator/testnotebook.json
 # cp 20220110-model1.json faims3-temp-notebook-migrator/

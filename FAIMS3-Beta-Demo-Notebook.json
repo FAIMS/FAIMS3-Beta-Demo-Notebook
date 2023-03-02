@@ -99,11 +99,13 @@
         "_id": "project-metadata-lead_institution",
         "_rev": "16-cd9ee9a64d71163ab3b91ebc990efa47"
     },
+    
     {
         "is_attachment": false,
         "metadata":
         {
-            "Thing2Label": "Demonstration project metadata"
+            "Thing2Label": "Demonstration project metadata",
+            "showQRCodeButton": "true"
         },
         "_id": "project-metadata-meta",
         "_rev": "16-6e0498b900e5a22f24440bdb1ea8e071"
@@ -2501,6 +2503,38 @@
                         "label": "uncertainty"
                     }
                 }
+            },
+            "sample-qrcode": {
+                "component-namespace": "qrcode",
+                "component-name": "QRCodeFormField",
+                "type-returned": "faims-core::String",
+                "component-parameters": {
+                    "name": "sample-qrcode",
+                    "id": "sample-qrcode",
+                    "variant": "outlined",
+                    "required": false,
+                    "label": "",
+                    "FormLabelProps": {
+                        "children": "QR Code demonstration button (mobile device only)"
+                    }
+                },
+                "validationSchema": [
+                    [
+                        "yup.string"
+                    ]
+                ],
+                "initialValue": "",
+                "access": [
+                    "admin"
+                ],
+                "meta": {
+                    "annotation_label": "annotation",
+                    "annotation": false,
+                    "uncertainty": {
+                        "include": false,
+                        "label": "uncertainty"
+                    }
+                }
             }
         },
         "fviews":
@@ -2555,7 +2589,8 @@
                     "newfield58537432",
                     "newfield8991f805",
                     "newfield5b08f563",
-                    "colour-picker"
+                    "colour-picker",
+                    "sample-qrcode"
                 ],
                 "uidesign": "form",
                 "label": "Special Fields"
