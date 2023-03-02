@@ -3,11 +3,6 @@
         "references":
         [
             {
-                "form_id": "FORM1SECTION6",
-                "field_id": "newfield5d343717",
-                "label": "Auto Increase Range"
-            },
-            {
                 "form_id": "FORM2SECTION1",
                 "field_id": "newfield63edb585",
                 "label": "Thing 2 incrementer"
@@ -105,7 +100,7 @@
         "metadata":
         {
             "Thing2Label": "Demonstration project metadata",
-            "showQRCodeButton": "true"
+            "showQRCodeButton": "false"
         },
         "_id": "project-metadata-meta",
         "_rev": "16-6e0498b900e5a22f24440bdb1ea8e071"
@@ -1327,44 +1322,7 @@
                         "label": "uncertainty"
                     }
                 }
-            },
-            "newfield5d343717":
-            {
-                "component-namespace": "faims-custom",
-                "component-name": "BasicAutoIncrementer",
-                "type-returned": "faims-core::String",
-                "component-parameters":
-                {
-                    "name": "newfield5d343717",
-                    "id": "newfield5d343717",
-                    "variant": "outlined",
-                    "required": true,
-                    "num_digits": 5,
-                    "form_id": "FORM1SECTION6",
-                    "label": "Auto Increase Range"
-                },
-                "validationSchema":
-                [
-                    [
-                        "yup.string"
-                    ]
-                ],
-                "initialValue": null,
-                "access":
-                [
-                    "admin"
-                ],
-                "meta":
-                {
-                    "annotation_label": "annotation",
-                    "annotation": false,
-                    "uncertainty":
-                    {
-                        "include": false,
-                        "label": "uncertainty"
-                    }
-                }
-            },
+            },            
             "newfield098f2977":
             {
                 "component-namespace": "faims-custom",
