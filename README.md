@@ -1,4 +1,4 @@
-# FAIMS3 Notebook: FAIMS3 Beta Demo Notebook
+# FAIMS3 Notebook: FAIMS3 Demo Notebook
 
 
 ## About this notebook:
